@@ -6,9 +6,43 @@
     <meta charset="utf-8">
     <meta name="description" content="Play a rock, paper, scissors game">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+        <section id="score">
+            <section id="tallies">
+                <div id="games">Games: 0</div>
+                <div id="player-wins">Player Wins: 0</div>
+                <div id="computer-wins">Computer Wins: 0</div>
+                <div id="ties">Ties: 0</div>
+            </section>
+            <section id="display">
+                <p>Click any button to play!</p>
+            </section>
+        </section>
+        <section id="buttons">
+            <button type="button">
+                <div class="emoji">⛰️</div>
+                <div class="button-text">Rock</div>
+            </button>
+            <button type="button">
+                <div class="emoji">📰️</div>
+                <div class="button-text">Paper</div>
+            </button>
+            <button type="button">
+                <div class="emoji">✂️</div>
+                <div class="button-text">Scissor</div>
+            </button>
+        </section>
+    </main>
+
     <script src="scripts/script.js"></script>
 </body>
 
